@@ -1,7 +1,9 @@
-/**
- * @(#) ComSerie.cs
- */
 
+
+using System.IO.Ports;
+/**
+* @(#) ComSerie.cs
+*/
 namespace Afficheur
 {
 	public static class ComSerie

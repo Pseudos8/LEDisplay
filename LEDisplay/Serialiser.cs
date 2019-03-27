@@ -1,7 +1,9 @@
-/**
- * @(#) Serialiser.cs
- */
 
+
+using System;
+/**
+* @(#) Serialiser.cs
+*/
 namespace Afficheur
 {
 	[ Serializable() ]
@@ -12,7 +14,7 @@ namespace Afficheur
 			
 			get
 			{
-				return null;
+				return 0;
 			}
 			
 			set
@@ -40,7 +42,7 @@ namespace Afficheur
 			
 			get
 			{
-				return null;
+				return 0;
 			}
 			
 			set
@@ -54,7 +56,7 @@ namespace Afficheur
 			
 			get
 			{
-				return null;
+				return false;
 			}
 			
 			set
@@ -68,7 +70,7 @@ namespace Afficheur
 			
 			get
 			{
-				return null;
+				return 0;
 			}
 			
 			set
@@ -82,7 +84,7 @@ namespace Afficheur
 			
 			get
 			{
-				return null;
+				return 0;
 			}
 			
 			set
@@ -96,7 +98,7 @@ namespace Afficheur
 			
 			get
 			{
-				return null;
+				return 0;
 			}
 			
 			set
@@ -124,7 +126,7 @@ namespace Afficheur
 			
 			get
 			{
-				return null;
+				return 0;
 			}
 			
 			set
@@ -138,7 +140,7 @@ namespace Afficheur
 			
 			get
 			{
-				return null;
+				return 0;
 			}
 			
 			set

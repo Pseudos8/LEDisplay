@@ -1,7 +1,9 @@
-/**
- * @(#) CommandesPerso.cs
- */
 
+
+using System.Windows.Input;
+/**
+* @(#) CommandesPerso.cs
+*/
 namespace Afficheur
 {
 	public static class CommandesPerso
