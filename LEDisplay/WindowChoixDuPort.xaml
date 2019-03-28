@@ -5,8 +5,52 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LEDisplay"
         mc:Ignorable="d"
-        Title="WindowChoixDuPort" Height="450" Width="800">
+        Title="WindowChoixDuPort" Height="450" Width="800" Background="#FF232232">
     <Grid>
-        
+        <Button x:Name="buttonReload" Content="Reload" HorizontalAlignment="Left" Margin="191,224,0,0" VerticalAlignment="Top" Width="99"/>
+        <Button x:Name="buttonValider" Content="Valider" HorizontalAlignment="Left" Margin="553,222,0,0" VerticalAlignment="Top" Width="75"/>
+
+
+        <ComboBox x:Name="comboBoxPort" Text="Liste des ports COM" HorizontalAlignment="Left" Margin="208,22,0,0" VerticalAlignment="Top" Width="307">
+            <StackPanel x:Name="PortUn"  HorizontalAlignment="Left" Height="25" Margin="0,20,0,0" VerticalAlignment="Top" Width="41">
+                <TextBlock x:Name="Port1" Text="Port1" VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <StackPanel x:Name="PortDeux" HorizontalAlignment="Left" Height="25" Margin="0,3,0,0" VerticalAlignment="Top" Width="56">
+                <TextBlock x:Name="Port2" Text="Port2" VerticalAlignment="Center"/>
+            </StackPanel>
+
+
+            <StackPanel x:Name="PortTrois" HorizontalAlignment="Left" Height="25" Margin="0,3,0,0" VerticalAlignment="Top" Width="100">
+                <TextBlock x:Name="Port3" Text="Port3" VerticalAlignment="Center" Height="27" Margin="0,0,64,0"/>
+            </StackPanel>
+
+
+            <StackPanel x:Name="PortQuatre" HorizontalAlignment="Left" Height="25" Margin="0,3,0,0" VerticalAlignment="Top" Width="100">
+                <TextBlock x:Name="Port4" Text="Port4" VerticalAlignment="Center"/>
+            </StackPanel>
+
+
+            <StackPanel x:Name="PortCinq" HorizontalAlignment="Left" Height="25" Margin="0,3,0,0" VerticalAlignment="Top" Width="100">
+                <TextBlock x:Name="Port5" Text="Port5" VerticalAlignment="Center"/>
+            </StackPanel>
+
+
+            <StackPanel x:Name="PortSix" HorizontalAlignment="Left" Height="25" Margin="0,3,0,0" VerticalAlignment="Top" Width="100">
+                <TextBlock x:Name="Port6" Text="Port6" VerticalAlignment="Center"/>
+            </StackPanel>
+
+
+            <StackPanel x:Name="PortSept" HorizontalAlignment="Left" Height="25" Margin="0,3,0,0" VerticalAlignment="Top" Width="100">
+                <TextBlock x:Name="Port7" Text="Port7" VerticalAlignment="Center"/>
+            </StackPanel>
+
+
+            <StackPanel x:Name="PortHuit" HorizontalAlignment="Left" Height="25" Margin="0,3,0,0" VerticalAlignment="Top" Width="100">
+                <TextBlock x:Name="Port8" Text="Port8" VerticalAlignment="Center"/>
+            </StackPanel>
+
+
+        </ComboBox>
     </Grid>
 </Window>
