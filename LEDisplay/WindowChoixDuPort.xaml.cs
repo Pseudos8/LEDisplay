@@ -2,7 +2,6 @@
 using System.Windows;
 using System.Windows.Input;
 
-
 namespace LEDisplay
 {
     /// <summary>
@@ -15,11 +14,6 @@ namespace LEDisplay
             InitializeComponent();
         }
         void Close_Executed(object sender, ExecutedRoutedEventArgs e)
-        {
-
-        }
-
-        void ButtonValiderPort_Click(object sender, RoutedEventArgs e)
         {
 
         }
@@ -68,6 +62,11 @@ namespace LEDisplay
 
             }
 
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            this.DialogResult = true;
         }
     }
 }

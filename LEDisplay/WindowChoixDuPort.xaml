@@ -5,13 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LEDisplay"
         mc:Ignorable="d"
-        Title="WindowChoixDuPort" Height="450" Width="800" Background="#FF232232">
+        Title="WindowChoixDuPort" Height="300" Width="600" Background="#FF232232" Closing="Window_Closing">
     <Grid>
-        <Button x:Name="buttonReload" Content="Reload" HorizontalAlignment="Left" Margin="191,224,0,0" VerticalAlignment="Top" Width="99"/>
-        <Button x:Name="buttonValider" Content="Valider" HorizontalAlignment="Left" Margin="553,222,0,0" VerticalAlignment="Top" Width="75"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="buttonReload" Grid.Row="1" Grid.Column="0" Content="Reload" Width="80" Height="40" Margin="100,0,0,80"/>
+        <Button x:Name="buttonValider" Grid.Row="1" Grid.Column="2" Content="Valider" Width="80" Height="40" Margin="0,0,100,80"/>
 
 
-        <ComboBox x:Name="comboBoxPort" Text="Liste des ports COM" HorizontalAlignment="Left" Margin="208,22,0,0" VerticalAlignment="Top" Width="307">
+        <ComboBox x:Name="comboBoxPort" Grid.Row="0" Grid.Column="1" Text="Ports COM"  Width="150" Height="30" Margin="24,80,24,0">
             <StackPanel x:Name="PortUn"  HorizontalAlignment="Left" Height="25" Margin="0,20,0,0" VerticalAlignment="Top" Width="41">
                 <TextBlock x:Name="Port1" Text="Port1" VerticalAlignment="Center"/>
             </StackPanel>

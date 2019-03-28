@@ -104,5 +104,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\Icones\copy.png" />
+    <Resource Include="Images\Icones\cut.png" />
+    <Resource Include="Images\Icones\exit.png" />
+    <Resource Include="Images\Icones\new.png" />
+    <Resource Include="Images\Icones\open.png" />
+    <Resource Include="Images\Icones\paste.png" />
+    <Resource Include="Images\Icones\save.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

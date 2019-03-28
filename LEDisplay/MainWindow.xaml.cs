@@ -10,6 +10,8 @@ namespace LEDisplay
     /// </summary>
     public partial class MainWindow : Window
     {
+        WindowChoixDuPort fenetrePrincipal = new WindowChoixDuPort();
+
         int LuminositePrecedente = 3;
 
         string MessageAEnvoyer = "";
@@ -94,6 +96,12 @@ namespace LEDisplay
         void ButtonInsereDate_Click(object sender, ExecutedRoutedEventArgs e)
         {
 
+        }
+
+        private void Window_Activated(object sender, EventArgs e)
+        {
+            fenetrePrincipal.Owner = this;
+            fenetrePrincipal.ShowDialog();       
         }
     }
 }
